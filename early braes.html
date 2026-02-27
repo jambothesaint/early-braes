@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Early Braes | Community Home Support – Glasgow</title>
+  
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    :root{
+      --brand:#2f6f63;
+      --brand-dark:#24594f;
+      --soft:#f4f8f6;
+      --cream:#fbfdfb;
+      --ink:#1f2d2a;
+    }
+    body{background:var(--cream); color:var(--ink)}
+    .bg-soft { background-color: var(--soft); }
+    .brand-green { color: var(--brand); }
+    .btn-brand { background-color: var(--brand); color: #fff; border:0; }
+    .btn-brand:hover { background-color: var(--brand-dark); color:#fff; }
+    .section-padding { padding: 80px 0; }
+    .card { border: 1px solid rgba(31,45,42,.10); border-radius: 1rem; }
+    .card img { height: 220px; object-fit: cover; border-top-left-radius: 1rem; border-top-right-radius: 1rem; }
+    .shadow-soft{ box-shadow: 0 14px 35px rgba(31,45,42,.08) !important; }
+    .pill{display:inline-flex; gap:.5rem; align-items:center; padding:.5rem .8rem; border-radius:999px; background:rgba(47,111,99,.10); border:1px solid rgba(47,111,99,.18); font-weight:600; font-size:.9rem}
+    .hero{
+      position:relative;
+      padding: 110px 0;
+      background:
+        linear-gradient(0deg, rgba(31,45,42,.45), rgba(31,45,42,.35)),
+        url('images/befriender-elderly.jpg') center/cover no-repeat;
+      color:#fff;
+    }
+    .hero .lead{color:rgba(255,255,255,.88)}
+    .hero-card{background:rgba(255,255,255,.92); color:var(--ink); border-radius: 1.2rem; border:1px solid rgba(255,255,255,.55)}
+    .trust-badge{display:flex; gap:.7rem; align-items:flex-start}
+    .trust-dot{width:38px; height:38px; border-radius:12px; background:rgba(47,111,99,.12); display:flex; align-items:center; justify-content:center; font-weight:800; color:var(--brand)}
+    .small-muted{color:rgba(31,45,42,.70)}
+    footer { background:var(--soft); padding:50px 0; }
+    .navbar{backdrop-filter: blur(8px)}
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/logo.png" alt="Early Braes Logo" height="78" class="me-2">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work">Work With Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7 text-center text-lg-start">
+        <div class="pill mb-3">Companionship • Home Cleaning • Combined Visits</div>
+        <h1 class="display-5 fw-semibold">Life’s a Breeze with the Right Support</h1>
+        <p class="lead mt-3 mb-4">
+          Early Braes is a <strong>local, community home support service</strong> across Glasgow — designed to help older people feel
+          safe, valued and comfortable at home.
+        </p>
+        <div class="d-flex gap-2 justify-content-center justify-content-lg-start flex-wrap">
+          <a href="#contact" class="btn btn-brand btn-lg px-4">Request a Call</a>
+          <a href="#services" class="btn btn-light btn-lg px-4">Explore Services</a>
+        </div>
+        <p class="mt-4 mb-0 small" style="color:rgba(255,255,255,.85)">
+          <strong>Important:</strong> We currently provide companionship and home support only. We do not provide personal care
+          (washing/dressing) or medication administration.
+        </p>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="p-4 hero-card shadow-soft">
+          <h5 class="brand-green fw-semibold">Why families choose Early Braes</h5>
+          <div class="mt-3 d-grid gap-3">
+            <div class="trust-badge">
+              <div class="trust-dot">✓</div>
+              <div>
+                <div class="fw-semibold">Small, personal & reliable</div>
+                <div class="small small-muted">Founder-led, calm communication, carefully matched support.</div>
+              </div>
+            </div>
+            <div class="trust-badge">
+              <div class="trust-dot">G</div>
+              <div>
+                <div class="fw-semibold">Glasgow & surrounding areas</div>
+                <div class="small small-muted">Local focus, minimal travel, consistency for clients.</div>
+              </div>
+            </div>
+            <div class="trust-badge">
+              <div class="trust-dot">3</div>
+              <div>
+                <div class="fw-semibold">Three simple options</div>
+                <div class="small small-muted">Sitting, cleaning, or both in the same visit.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section-padding bg-soft">
+  <div class="container">
+    <div class="row g-3 mb-4">
+      <div class="col-lg-8">
+        <h2 class="brand-green mb-1">Our Services</h2>
+        <p class="mb-0">Simple, flexible home support tailored to your needs.</p>
+      </div>
+      <div class="col-lg-4">
+        <div class="p-3 bg-white rounded-4 border shadow-sm">
+          <div class="small fw-semibold brand-green">Trust & boundaries</div>
+          <div class="small mt-1">Companionship & home support only — no personal care or medication.</div>
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Companionship -->
+      <div class="col-md-4">
+        <div class="card shadow-soft h-100">
+          <img src="images/befriender.jpg" class="card-img-top" alt="Companionship visit">
+          <div class="card-body">
+            <h5 class="card-title brand-green">Companionship & Sitting</h5>
+            <ul>
+              <li>Friendly companionship visits</li>
+              <li>Respite for families</li>
+              <li>Light meals & conversation</li>
+              <li>Shopping & appointments</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cleaning -->
+      <div class="col-md-4">
+        <div class="card shadow-soft h-100">
+          <img src="images/cleaner.jpg" class="card-img-top" alt="Home cleaning support">
+          <div class="card-body">
+            <h5 class="card-title brand-green">Home Cleaning Support</h5>
+            <ul>
+              <li>Regular domestic cleaning</li>
+              <li>Kitchen & bathroom refresh</li>
+              <li>Laundry & bed changing</li>
+              <li>Respectful in-home service</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Combined -->
+      <div class="col-md-4">
+        <div class="card shadow-soft h-100">
+          <img src="images/combined.jpg" class="card-img-top" alt="Combined support visit">
+          <div class="card-body">
+            <h5 class="card-title brand-green">Combined Support Visits</h5>
+            <p>Companionship and cleaning in one visit — practical and reassuring.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WORK WITH US -->
+<section id="work" class="section-padding">
+  <div class="container">
+    <div class="row align-items-start g-4">
+      <div class="col-lg-6">
+        <h2 class="brand-green">Work With Early Braes</h2>
+        <p class="mb-3">Flexible shifts for experienced carers and domestic cleaners.</p>
+        <div class="p-4 bg-soft rounded-4 border">
+          <div class="fw-semibold mb-2">Why join?</div>
+          <ul class="mb-0">
+            <li>Local clients – minimal travel</li>
+            <li>Flexible evenings & weekends</li>
+            <li>Founder-led support</li>
+            <li>You’re valued — not just a rota number</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-4 bg-white rounded-4 border shadow-soft">
+          <div class="fw-semibold brand-green">Who we’re looking for</div>
+          <ul class="mt-2 mb-0">
+            <li>Experienced carers (care home, home care, NHS) and/or domestic cleaners</li>
+            <li>PVG registered (or willing to apply)</li>
+            <li>Kind, calm, reliable and respectful</li>
+          </ul>
+          <div class="mt-3 small small-muted">To express interest, use the contact details below.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-padding bg-soft">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-6">
+        <h2 class="brand-green">Get in Touch</h2>
+        <p class="mb-2">Serving Glasgow & surrounding areas</p>
+        <div class="p-4 bg-white rounded-4 border shadow-soft">
+          <div class="fw-semibold">Suggested enquiry hours</div>
+          <div class="small small-muted">Mon–Fri: 5pm–8pm • Sat: 10am–2pm</div>
+          <hr class="my-3" />
+          <p class="mb-2"><strong>Phone:</strong> +44 XXXXX XXXXXX</p>
+          <p class="mb-0"><strong>Email:</strong> hello@earlybraes.co.uk</p>
+        </div>
+        <p class="mt-3 small small-muted"><strong>Note:</strong> Early Braes does not currently provide personal care (washing/dressing) or medication administration.</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-4 bg-white rounded-4 border shadow-soft">
+          <div class="fw-semibold brand-green">Quick message (optional)</div>
+          <p class="small small-muted mb-3">This form is a placeholder until you connect it to email.</p>
+          <form onsubmit="event.preventDefault(); alert('Thanks! This demo form is not connected yet.');" class="d-grid gap-3">
+            <input class="form-control form-control-lg" required placeholder="Your name" />
+            <input class="form-control form-control-lg" required placeholder="Phone or email" />
+            <textarea class="form-control" required placeholder="How can we help?" rows="5"></textarea>
+            <button class="btn btn-brand btn-lg" type="submit">Send message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container text-center">
+    <img src="images/logo.png" alt="Early Braes Logo" height="60" class="mb-3">
+    <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Early Braes</p>
+    <small>Companionship & Home Support Service – Glasgow</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
